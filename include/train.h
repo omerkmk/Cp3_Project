@@ -4,8 +4,9 @@
 #include "wagon.h"
 #include "material.h"
 
-typedef struct Train
+typedef struct
 {
+    char train_id[20];
     Wagon *first_wagon;
     int wagon_count;
     MaterialList materials;

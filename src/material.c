@@ -29,6 +29,7 @@ void display_material_status(const MaterialList *list)
     }
 
     Material *current = list->head;
+    printf("Materials Status:\n");
     while (current)
     {
         printf("Material: %s, Weight: %.2f, Quantity: %d\n",
